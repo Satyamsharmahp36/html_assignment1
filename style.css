@@ -1,24 +1,24 @@
 body {
   background-color:yellowgreen;
-}
+} /* Giving background color to whole table */
 .A {
   font-weight: 400;
   font-family:Impact;
-}
+}/*Giving style to a specific class named "A" */
 h3 {
   color: brown;
-}
+} /* Selection all tags with h3 and styling to them */
 #Data {
   color: blueviolet;
   font-weight: 400;
    font-family: Arial, Helvetica, sans-serif;
    background-color: aqua;
-  }
+  } /* Gave styling to a specific unique id named "Data" */
 #head {
   border: 5px;
    background-color: azure;
-  }
+  } /* Gave styling to a specific unique id named "head" */
 img {
   background-color:blanchedalmond;
   padding: 5px;
-}
+} /* All img tag is choosen for styling */
