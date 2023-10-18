@@ -1,24 +1,42 @@
-body {
+/* Giving background color to whole table
+UNIVERSAL SELECTOR IS USED HERE */
+
+* {
   background-color:yellowgreen;
-} /* Giving background color to whole table */
+} 
+/*Giving style to a specific class named "A" */
 .A {
   font-weight: 400;
   font-family:Impact;
-}/*Giving style to a specific class named "A" */
-h3 {
+}
+/* Selection all tags with h3 and styling to them 
+HERE WE HAVE GROUPED THE SELECTOR*/
+h3 , .A{
   color: brown;
-} /* Selection all tags with h3 and styling to them */
+} 
+ /* Gave styling to a specific unique id named "Data" */
 #Data {
   color: blueviolet;
   font-weight: 400;
    font-family: Arial, Helvetica, sans-serif;
    background-color: aqua;
-  } /* Gave styling to a specific unique id named "Data" */
+  }
+   /* Gave styling to a specific unique id named "head" */
 #head {
   border: 5px;
    background-color: azure;
-  } /* Gave styling to a specific unique id named "head" */
+  }
+  /* All img tag is choosen for styling */
 img {
   background-color:blanchedalmond;
   padding: 5px;
-} /* All img tag is choosen for styling */
+} 
+/*Here we have use combination of two selector .
+To select img tag inside id  = cricket */
+#cricket img{
+  background-color: black;
+}
+/*Here we have used attribute selector*/
+a[target=_blank]{
+  color: white;
+}
